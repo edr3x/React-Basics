@@ -3,8 +3,8 @@ import { TodoListComponent } from "./components/TodoList";
 
 export function App() {
     return (
-        <div className="main">
+        <main>
             <TodoListComponent />
-        </div>
+        </main>
     );
 }

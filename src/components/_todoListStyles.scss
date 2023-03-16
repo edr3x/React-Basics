@@ -1,10 +1,6 @@
-.main {
-    height: 100vh;
-    width: 100vw;
+.maintodo {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-
-@import "components/todoListStyles";
