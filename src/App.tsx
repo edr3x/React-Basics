@@ -1,10 +1,10 @@
 import "./App.scss";
-import { ReactQueryDemo } from "./Demo_9_ReactQuery/ReactQueryDemo";
+import { FormDemo } from "./Demo_10_Form/FormDemo";
 
 export function App() {
     return (
-        <main className="main">
-            <ReactQueryDemo />
+        <main>
+            <FormDemo />
         </main>
     );
 }
