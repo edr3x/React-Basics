@@ -1,10 +1,10 @@
 import "./App.scss";
-import { FetchDataFromAPI } from "./components/FetchDataApi";
+import { ReactRouterDemo } from "./Demo_7_ReactRouter/ReactRouterDemo";
 
 export function App() {
     return (
         <main className="main">
-            <FetchDataFromAPI />
+            <ReactRouterDemo />
         </main>
     );
 }
