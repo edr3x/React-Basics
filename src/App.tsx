@@ -1,10 +1,10 @@
 import "./App.scss";
-import { ReactRouterDemo } from "./Demo_7_ReactRouter/ReactRouterDemo";
+import { StateManagementDemo } from "./Demo_8_UseContextHook/StateManagement";
 
 export function App() {
     return (
         <main className="main">
-            <ReactRouterDemo />
+            <StateManagementDemo />
         </main>
     );
 }
