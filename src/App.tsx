@@ -1,10 +1,10 @@
 import "./App.scss";
-import { TodoListComponent } from "./components/TodoList";
+import { ComponentLifeCycleDemo } from "./components/ComponentLifeCycle";
 
 export function App() {
     return (
         <main>
-            <TodoListComponent />
+            <ComponentLifeCycleDemo />
         </main>
     );
 }
