@@ -1,10 +1,10 @@
 import "./App.scss";
-import { ComponentLifeCycleDemo } from "./components/ComponentLifeCycle";
+import { FetchDataFromAPI } from "./components/FetchDataApi";
 
 export function App() {
     return (
-        <main>
-            <ComponentLifeCycleDemo />
+        <main className="main">
+            <FetchDataFromAPI />
         </main>
     );
 }
