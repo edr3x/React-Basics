@@ -1,10 +1,10 @@
 import "./App.scss";
-import { StateManagementDemo } from "./Demo_8_UseContextHook/StateManagement";
+import { ReactQueryDemo } from "./Demo_9_ReactQuery/ReactQueryDemo";
 
 export function App() {
     return (
         <main className="main">
-            <StateManagementDemo />
+            <ReactQueryDemo />
         </main>
     );
 }
