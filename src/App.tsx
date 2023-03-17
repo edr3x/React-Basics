@@ -1,10 +1,10 @@
 import "./App.scss";
-import { CustomHooksDemo } from "./Demo_11_CustomHooks/CustomHookDemo";
+import { ReduxToolKitDemo } from "./Demo_12_ReduxToolKit/ReduxToolKitDemo";
 
 export function App() {
     return (
         <main>
-            <CustomHooksDemo />
+            <ReduxToolKitDemo />
         </main>
     );
 }
