@@ -1,0 +1,52 @@
+@mixin inputBoxDecoration {
+    margin: 0.5em;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s,
+        box-shadow 0.15s ease-in-out 0s;
+    width: 30%;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2em;
+    .inputBox {
+        @include inputBoxDecoration;
+        color: #555;
+    }
+
+    .inputBox:focus {
+        border-color: #66afe9;
+        outline: 0;
+        box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+    }
+
+    .inputError {
+        @include inputBoxDecoration;
+        border-color: red;
+    }
+
+    p {
+        color: red;
+        font-size: 12px;
+    }
+
+    .submitButton {
+        margin: 0.5em;
+        border: 1px solid #ccc;
+        border-radius: 7px;
+        box-shadow: 0 1px 7px rgba(0, 0, 0, 0.075) inset;
+        line-height: 1.42857;
+        width: 10%;
+        padding: 6px 12px;
+        background-color: blueviolet;
+        color: white;
+    }
+}
