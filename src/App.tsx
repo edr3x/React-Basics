@@ -1,10 +1,10 @@
 import "./App.scss";
-import { FormDemo } from "./Demo_10_Form/FormDemo";
+import { CustomHooksDemo } from "./Demo_11_CustomHooks/CustomHookDemo";
 
 export function App() {
     return (
         <main>
-            <FormDemo />
+            <CustomHooksDemo />
         </main>
     );
 }
